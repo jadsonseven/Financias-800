@@ -1,0 +1,80 @@
+html
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guia Financeiro Inteligente - Organize suas Contas e Invista Melhor</title>
+    <meta name="description" content="Aprenda a controlar seus gastos, sair das dívidas e investir com inteligência. Dicas práticas de finanças pessoais e economia para o seu dia a dia.">
+    <style>
+        :root {
+            --primary: #0284c7;
+            --secondary: #0369a1;
+            --dark: #0f172a;
+            --light: #f8fafc;
+            --gray: #64748b;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
+        body { background-color: var(--light); color: var(--dark); line-height: 1.6; }
+        header { background: white; box-shadow: 0 1px 3px rgba(0,0,0,0.1); position: sticky; top: 0; z-index: 100; }
+        .container { max-width: 1100px; margin: 0 auto; padding: 0 20px; }
+        .nav-container { display: flex; justify-content: space-between; align-items: center; height: 70px; }
+        .logo { font-size: 1.5rem; font-weight: bold; color: var(--primary); text-decoration: none; }
+        nav a { margin-left: 20px; text-decoration: none; color: var(--gray); font-weight: 500; transition: color 0.3s; }
+        nav a:hover { color: var(--primary); }
+        .hero { background: linear-gradient(135deg, var(--primary), var(--secondary)); color: white; text-align: center; padding: 80px 20px; }
+        .hero h1 { font-size: 2.5rem; margin-bottom: 15px; }
+        .hero p { font-size: 1.1rem; max-width: 600px; margin: 0 auto; opacity: 0.9; }
+        .main-content { display: grid; grid-template-columns: 2fr 1fr; gap: 40px; padding: 50px 0; }
+        .article-card { background: white; padding: 30px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.05); margin-bottom: 30px; }
+        .article-card h2 { color: var(--dark); margin-bottom: 15px; font-size: 1.8rem; }
+        .article-card p { color: var(--gray); margin-bottom: 15px; }
+        .sidebar { background: white; padding: 25px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.05); height: fit-content; }
+        .sidebar h3 { margin-bottom: 15px; color: var(--dark); border-bottom: 2px solid var(--light); padding-bottom: 8px; }
+        .sidebar ul { list-style: none; }
+        .sidebar ul li { margin-bottom: 10px; }
+        .sidebar ul li a { text-decoration: none; color: var(--secondary); }
+        .sidebar ul li a:hover { text-decoration: underline; }
+        footer { background: var(--dark); color: white; text-align: center; padding: 30px 20px; margin-top: 50px; font-size: 0.9rem; }
+        footer a { color: #38bdf8; text-decoration: none; margin: 0 10px; }
+        @media (max-width: 768px) {
+            .main-content { grid-template-columns: 1fr; }
+            .hero h1 { font-size: 2rem; }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="container nav-container">
+            <a href="#" class="logo">GuiaFinanceiro.com</a>
+            <nav>
+                <a href="#inicio">Início</a>
+                <a href="#artigos">Artigos</a>
+                <a href="#sobre">Sobre</a>
+                <a href="#privacidade">Privacidade</a>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero" id="inicio">
+        <div class="container">
+            <h1>Domine Suas Finanças Pessoais</h1>
+            <p>Estratégias simples e eficientes para você organizar o orçamento, eliminar dívidas e construir um futuro financeiro seguro.</p>
+        </div>
+    </section>
+
+    <div class="container main-content">
+        <main>
+            <article class="article-card" id="artigos">
+                <h2>Como Organizar o Orçamento Familiar em 5 Passos Práticos</h2>
+                <p><em>Publicado em 2026 • 5 min de leitura</em></p>
+                <p>Manter o controle do dinheiro que entra e sai é o primeiro passo para conquistar a tranquilidade financeira. Sem um orçamento claro, é fácil perder o controle com pequenos gastos invisíveis no dia a dia.</p>
+                <p><strong>1. Mapeie todas as suas receitas:</strong> Anote exatamente quanto entra líquido na sua casa todo mês, incluindo salário, rendas extras ou pensões.</p>
+                <p><strong>2. Categorize os gastos:</strong> Divida suas despesas em fixas (aluguel, contas de luz e internet) e variáveis (supermercado, lazer e transporte).</p>
+                <p><strong>3. Use a regra 50-30-20:</strong> Destine 50% da renda para necessidades básicas, 30% para desejos pessoais e 20% obrigatoriamente para investimentos ou quitação de dívidas.</p>
+                <p>Adotando esses hábitos simples por pelo menos três meses, você notará uma melhora drástica na sua saúde financeira e evitará recorrer a empréstimos com juros altos.</p>
+            </article>
+
+            <article class="article-card">
+                <h2>Por Onde Começar a Investir com Pouco 
